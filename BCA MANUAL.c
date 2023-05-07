@@ -17,13 +17,13 @@ printf("\n########################  BCA MANUAL  ########################\n");
 printf(" Enter The Numerical Value According To SEM\n\n");
 printf(" First SEM:-->[1]\n Second SEM:-->[2]\n Third SEM:-->[3]\n Fourth SEM:-->[4]\n Fifth SEM:-->[5]\n Sixth SEM:-->[6]\n Seventh SEM:-->[7]\n Eigth SEM:-->[8]\n");
 printf("\n Enter Your Input:");
-scanf("%d",&i);
+strtol("%d",&i);
 switch (i)
 {
 case 1:printf("\n*You Have Selected 1st SEM\n"); printf(" These Are The Subjects In BCA First SEM\n");
        printf(" [1] Fundamentals Of Computer\n [2] Programming In C\n [3] Mathematical Foundation/Accountancy\n [4] LAB: Information Technology\n [5] LAB: C Programming\n [6] Environmental Studies\n [7] Open Elective:(Depends Upon Collage)");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&one);
+       strtol("%d",&one);
        switch(one)
        {
        case 1: printf("\nYou Have Selected: [1] Fundamentals Of Computer\n");
@@ -63,7 +63,7 @@ break;
 case 2:printf("\n*You Have Selected 2nd SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Data Structures using C\n [2] Object Oriented Concepts using JAVA\n [3] Discrete Mathematical Structures\n [4] LAB: Data Structure\n [5] LAB: JAVA\n [6] Compalsory Subject\n [7] Open Elective:(Depends Upon Collage)");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&two);
+       strtol("%d",&two);
        switch(two)
        {
        case 1: printf("\nYou Have Selected: [1] Data Structures using C\n");
@@ -103,7 +103,7 @@ break;
 case 3:printf("\n*You Have Selected 3rd SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Database Management Systems\n [2] C# and DOT NET Framework\n [3] Computer Communication and Networks\n [4] LAB: DBMS \n [5] LAB: C# and DOT NET Framework\n [6] Compalsory Subject\n [7] Open Elective:(Depends Upon Collage)");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&three);
+       strtol("%d",&three);
        switch(three)
        {
        case 1: printf("\nYou Have Selected: [1] Database Management Systems\n");
@@ -143,7 +143,7 @@ break;
 case 4:printf("\n*You Have Selected 4th SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Python Programming\n [2] Computer Multimedia and Animation\n [3] Operating Systems Concepts\n [4] LAB: Multimedia and Animation\n [5] LAB: Python programming\n [6] Compalsory Subject\n [7] Open Elective:(Depends Upon Collage)");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&four);
+       strtol("%d",&four);
        switch(four)
        {
        case 1: printf("\nYou Have Selected: [1] Python Programming\n");
@@ -183,7 +183,7 @@ break;
 case 5:printf("\n*You Have Selected 5th SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Coming Soon\n [2] Coming Soon\n [3] Coming Soon\n [4] LAB: Coming Soon\n [5] LAB: Coming Soon\n [6] Compalsory Subject\n [7] Open Elective:( Depends Upon College )");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&five);
+       strtol("%d",&five);
        switch(five)
        {
        case 1: printf("\nYou Have Selected: [1] Coming Soon\n");
@@ -223,7 +223,7 @@ break;
 case 6:printf("\n*You Have Selected 6th SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Coming Soon\n [2] Coming Soon\n [3] Coming Soon\n [4] LAB: Coming Soon\n [5] LAB: Coming Soon\n [6] Compalsory Subject\n [7] Open Elective:( Depends Upon College )");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&six);
+       strtol("%d",&six);
        switch(six)
        {
        case 1: printf("\nYou Have Selected: [1] Coming Soon\n");
@@ -263,7 +263,7 @@ break;
 case 7:printf("\n*You Have Selected 7th SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Coming Soon\n [2] Coming Soon\n [3] Coming Soon\n [4] LAB: Coming Soon\n [5] LAB: Coming Soon\n [6] Compalsory Subject\n [7] Open Elective:( Depends Upon College )");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&seven);
+       strtol("%d",&seven);
        switch(seven)
        {
        case 1: printf("\nYou Have Selected: [1] Coming Soon\n");
@@ -303,7 +303,7 @@ break;
 case 8:printf("\n*You Have Selected 8th SEM\n"); printf(" These Are The Subjects In BCA Second SEM\n");
        printf(" [1] Coming Soon\n [2] Coming Soon\n [3] Coming Soon\n [4] LAB: Coming Soon\n [5] LAB: Coming Soon\n [6] Compalsory Subject\n [7] Open Elective:( Depends Upon College )");
        printf("\n\nEnter Your Input For More Information:");
-       scanf("%d",&eight);
+       strtol("%d",&eight);
        switch(eight)
        {
        case 1: printf("\nYou Have Selected: [1] Coming Soon\n");
