@@ -31,7 +31,7 @@ This is a user friendly <b>BCA Manual</b> according NEP Syllabus 2022-23.
 ![Step-4](https://user-images.githubusercontent.com/114947287/213905706-7a1558c5-4972-4c8a-ac84-acc80845aeb8.png)
 
 <br><br>
-<center><b>5 --> Example Of FOOD MANUAL.exe File .</b></center>
+<center><b>5 --> Example Of BNU BCA MANUAL.exe File .</b></center>
 
 ![OUTPUT](https://user-images.githubusercontent.com/114947287/213905709-2f27ca31-c105-481c-afff-8c8abb043282.png)
 
